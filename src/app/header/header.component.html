@@ -1,0 +1,431 @@
+<div class="container py-4">
+  <div class="row">
+    <div class="col-12 mb-4 px-0">
+      <h4>Manage Workflow and Task</h4>
+    </div>
+    <div class="col-12 mb-3 px-0">
+      <!-- <button type="button" class="btn btn-sm btn-theme">Task Userflow <i class="bi bi-caret-down-fill"></i>
+				</button> -->
+      <select class="custom-select custom-select">
+        <option selected>Test User Work Flow</option>
+        <option value="1">User Flow</option>
+        <option value="2">Test Flow</option>
+        <option value="3">Work Flow</option>
+      </select>
+      <button type="button" class="btn btn-sm btn-primary ml-3">
+        Retire Workflow
+      </button>
+    </div>
+    <div class="col-12 my-4 shadow px-0">
+      <ul class="nav nav-tabs nav-justified" role="tablist">
+        <li class="nav-item">
+          <a class="nav-link active" data-toggle="tab" href="#mdr-1" role="tab"
+            >MDR 1</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#mdr-2" role="tab"
+            >MDR 2</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="tab" href="#mdr-3" role="tab"
+            >MDR 3</a
+          >
+        </li>
+      </ul>
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane active" id="mdr-1" role="tabpanel">
+          <div class="container py-3">
+            <div class="row mb-4">
+              <div class="col-11">
+                <h5 class="pt-1">Sub Modules</h5>
+              </div>
+              <div class="col-1">
+                <button type="button" class="btn btn-primary">Save</button>
+              </div>
+            </div>
+            <!-- Cards -->
+            <div class="row">
+              <!-- Import/Approval -->
+              <div class="col-6">
+                <div class="card shadow-sm">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-8">
+                        <h6 class="mt-2">Import/Approval</h6>
+                      </div>
+                      <div class="col-4">
+                        <input
+                          class="form-control"
+                          type="text"
+                          placeholder="Search"
+                        />
+                      </div>
+                      <div class="col-12 mt-4">
+                        <table class="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th scope="col">
+                                <div
+                                  class="custom-control custom-checkbox px-2"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    aria-label="Checkbox for following text input"
+                                  />
+                                </div>
+                              </th>
+                              <th scope="col">Task Name</th>
+                              <th scope="col">Task Description</th>
+                              <th scope="col">Action</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="pt-3">
+                                <div
+                                  class="custom-control custom-checkbox px-2"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    aria-label="Checkbox for following text input"
+                                  />
+                                </div>
+                              </td>
+                              <td class="pt-3">Import Screen Access</td>
+                              <td class="pt-3">
+                                Import Metadata Screen Access
+                              </td>
+                              <td>
+                                <button
+                                  type="button"
+                                  class="btn btn-link"
+                                  title="Edit"
+                                >
+                                  <i class="bi bi-pencil-square"></i>
+                                </button>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="pt-3">
+                                <div
+                                  class="custom-control custom-checkbox px-2"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    aria-label="Checkbox for following text input"
+                                  />
+                                </div>
+                              </td>
+                              <td class="pt-3">Approvals Screen Access</td>
+                              <td class="pt-3">
+                                Import Metadata Screen Access
+                              </td>
+                              <td>
+                                <button
+                                  type="button"
+                                  class="btn btn-link"
+                                  title="Edit"
+                                >
+                                  <i class="bi bi-pencil-square"></i>
+                                </button>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Metadata Repository -->
+              <div class="col-6">
+                <div class="card shadow-sm">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-8">
+                        <h6 class="mt-2">Metadata Repository</h6>
+                      </div>
+                      <div class="col-4">
+                        <input
+                          class="form-control"
+                          type="text"
+                          placeholder="Search"
+                        />
+                      </div>
+                      <div class="col-12 mt-4">
+                        <table class="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th scope="col">
+                                <div
+                                  class="custom-control custom-checkbox px-2"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    aria-label="Checkbox for following text input"
+                                  />
+                                </div>
+                              </th>
+                              <th scope="col">Task Name</th>
+                              <th scope="col">Task Description</th>
+                              <th scope="col">Action</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="pt-3">
+                                <div
+                                  class="custom-control custom-checkbox px-2"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    aria-label="Checkbox for following text input"
+                                  />
+                                </div>
+                              </td>
+                              <td class="pt-3">Import Screen Access</td>
+                              <td class="pt-3">
+                                Import Metadata Screen Access
+                              </td>
+                              <td>
+                                <button
+                                  type="button"
+                                  class="btn btn-link"
+                                  title="Edit"
+                                >
+                                  <i class="bi bi-pencil-square"></i>
+                                </button>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="pt-3">
+                                <div
+                                  class="custom-control custom-checkbox px-2"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    aria-label="Checkbox for following text input"
+                                  />
+                                </div>
+                              </td>
+                              <td class="pt-3">Approvals Screen Access</td>
+                              <td class="pt-3">
+                                Import Metadata Screen Access
+                              </td>
+                              <td>
+                                <button
+                                  type="button"
+                                  class="btn btn-link"
+                                  title="Edit"
+                                >
+                                  <i class="bi bi-pencil-square"></i>
+                                </button>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Governance -->
+              <div class="col-6 my-4">
+                <div class="card shadow-sm">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-8">
+                        <h6 class="mt-2">Governance</h6>
+                      </div>
+                      <div class="col-4">
+                        <input
+                          class="form-control"
+                          type="text"
+                          placeholder="Search"
+                        />
+                      </div>
+                      <div class="col-12 mt-4">
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th scope="col">
+                                <div
+                                  class="custom-control custom-checkbox px-2"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    aria-label="Checkbox for following text input"
+                                  />
+                                </div>
+                              </th>
+                              <th scope="col">Task Name</th>
+                              <th scope="col">Task Description</th>
+                              <th scope="col">Action</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="pt-3">
+                                <div
+                                  class="custom-control custom-checkbox px-2"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    aria-label="Checkbox for following text input"
+                                  />
+                                </div>
+                              </td>
+                              <td class="pt-3">Import Screen Access</td>
+                              <td class="pt-3">
+                                Import Metadata Screen Access
+                              </td>
+                              <td>
+                                <button
+                                  type="button"
+                                  class="btn btn-link"
+                                  title="Edit"
+                                >
+                                  <i class="bi bi-pencil-square"></i>
+                                </button>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="pt-3">
+                                <div
+                                  class="custom-control custom-checkbox px-2"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    aria-label="Checkbox for following text input"
+                                  />
+                                </div>
+                              </td>
+                              <td class="pt-3">Approvals Screen Access</td>
+                              <td class="pt-3">
+                                Import Metadata Screen Access
+                              </td>
+                              <td>
+                                <button
+                                  type="button"
+                                  class="btn btn-link"
+                                  title="Edit"
+                                >
+                                  <i class="bi bi-pencil-square"></i>
+                                </button>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Request Queue -->
+              <div class="col-6 my-4">
+                <div class="card shadow-sm">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-8">
+                        <h6 class="mt-2">Request Queue</h6>
+                      </div>
+                      <div class="col-4">
+                        <input
+                          class="form-control"
+                          type="text"
+                          placeholder="Search"
+                        />
+                      </div>
+                      <div class="col-12 mt-4">
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th scope="col">
+                                <div
+                                  class="custom-control custom-checkbox px-2"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    aria-label="Checkbox for following text input"
+                                  />
+                                </div>
+                              </th>
+                              <th scope="col">Task Name</th>
+                              <th scope="col">Task Description</th>
+                              <th scope="col">Action</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="pt-3">
+                                <div
+                                  class="custom-control custom-checkbox px-2"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    aria-label="Checkbox for following text input"
+                                  />
+                                </div>
+                              </td>
+                              <td class="pt-3">Import Screen Access</td>
+                              <td class="pt-3">
+                                Import Metadata Screen Access
+                              </td>
+                              <td>
+                                <button
+                                  type="button"
+                                  class="btn btn-link"
+                                  title="Edit"
+                                >
+                                  <i class="bi bi-pencil-square"></i>
+                                </button>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="pt-3">
+                                <div
+                                  class="custom-control custom-checkbox px-2"
+                                >
+                                  <input
+                                    type="checkbox"
+                                    aria-label="Checkbox for following text input"
+                                  />
+                                </div>
+                              </td>
+                              <td class="pt-3">Approvals Screen Access</td>
+                              <td class="pt-3">
+                                Import Metadata Screen Access
+                              </td>
+                              <td>
+                                <button
+                                  type="button"
+                                  class="btn btn-link"
+                                  title="Edit"
+                                >
+                                  <i class="bi bi-pencil-square"></i>
+                                </button>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane" id="mdr-2" role="tabpanel">
+          <p>MDR 2</p>
+        </div>
+        <div class="tab-pane" id="mdr-3" role="tabpanel">
+          <p>MDR 3</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

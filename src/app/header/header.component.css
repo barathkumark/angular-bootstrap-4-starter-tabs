@@ -1,0 +1,17 @@
+.custom-select {
+  width: auto !important;
+}
+
+td {
+  font-size: 14px !important;
+}
+
+.nav-link.active {
+  border-top: 5px solid #0d6efd !important;
+  color: white;
+}
+
+.nav-link {
+  margin-bottom: 0px !important;
+  border-bottom: 0 !important;
+}
